@@ -27,8 +27,8 @@
     </dependencies>
     <build>
         <finalName>running-unit-tests</finalName>
-        <sourceDirectory>com/fizzbuzz</sourceDirectory>
-        <testSourceDirectory>com/fizzbuzz</testSourceDirectory>
+        <sourceDirectory>src/com</sourceDirectory>
+        <testSourceDirectory>src/com/fizzbuzz</testSourceDirectory>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
