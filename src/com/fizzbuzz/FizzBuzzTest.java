@@ -1,8 +1,8 @@
 package com.fizzbuzz;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
+import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 public class FizzBuzzTest {
     @Test
 
@@ -15,7 +15,7 @@ public class FizzBuzzTest {
 
         FizzBuzz test = new FizzBuzz();
 
-        Assert.assertEquals("FizzBuzz", test.classify(15));
+        assertEquals("FizzBuzz", test.classify(15));
     }
 
 
@@ -25,7 +25,7 @@ public class FizzBuzzTest {
 
         FizzBuzz test = new FizzBuzz();
 
-        Assert.assertEquals("Fizz", test.classify(24));
+        assertEquals("Fizz", test.classify(24));
     }
 
     @Test
@@ -34,7 +34,7 @@ public class FizzBuzzTest {
 
         FizzBuzz test = new FizzBuzz();
 
-        Assert.assertEquals("Buzz", test.classify(25));
+        assertEquals("Buzz", test.classify(25));
 
     }
 
